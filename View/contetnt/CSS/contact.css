@@ -1,0 +1,71 @@
+.icon-bar {
+
+		border-radius: 15px;
+		width: 90px; 
+		background-color: #555;
+	}
+
+	.icon-bar a {
+		display: block; /* Make the links appear below each other instead of side-by-side */
+		text-align: center; /* Center-align text */
+		padding: 16px; /* Add some padding */
+		transition: all 0.3s ease; /* Add transition for hover effects */
+		color: white; /* White text color */
+		font-size: 36px; /* Increased font-size */
+	}
+
+	.icon-bar a:hover {
+		background-color: #000; /* Add a hover color */
+	}
+
+
+	.icon-bar
+	{
+		float: left;
+		margin-top: 120px;
+	}
+	.navbar ul li:hover
+	{
+		background-color:black;
+	}
+
+	.con 
+	{
+		float: left;
+		border:3px solid grey;
+		border-radius: 10px;
+		width: 200px;
+		margin-bottom: 20px;
+		height: 220px;
+	}
+
+
+	.con a
+	{
+		font-size: 60px;
+	}
+
+	.c1
+	{
+		margin-left: 200px;
+		margin-top: 200px;
+	}
+
+	.pad
+	{
+		padding: 10px;
+	}
+
+
+	.c2
+	{
+		margin-top: 200px;
+		margin-left: 100px;
+	}
+
+
+	.c3
+	{
+		margin-top: 200px;
+		margin-left: 100px;
+    }
