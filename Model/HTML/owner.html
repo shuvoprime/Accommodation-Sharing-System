@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Welcome</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="customer.css">
+</head>
+<body>
+
+
+		<div class="container-fluid">
+		<div class="row">
+			<div class="col-lg-4">
+				<form action="/action_page.php" method="post" style="border:1px solid #ccc">
+					<div class="container">
+						<h1>Post your House Details</h1>
+						<p></p>
+						<hr>
+
+						<label for="address"><b>Address</b></label>
+						<input type="text" placeholder="Enter Full Address"  name="address" required>
+
+						<label for="type">House Type</label>
+						<select class="form-control" name="type">
+							<option value="small">Small (under 500 square feet)</option>
+							<option value="medium">Medium (under 800 square feet)</option>
+							<option value="large">Large (more than 800 square feet)</option>
+						</select>
+
+						<label for="price"><b>Price</b></label>
+						<input type="text" placeholder="e.g 12000, 18000"  name="price" required>
+
+						<label for="bedroom"><b>Bedroom</b></label>
+						<input type="text" placeholder="e.g 3,4" name="bedroom" required>
+
+						<label for="toilet"><b>Toilet</b></label>
+						<input type="text" placeholder="e.g 1,2" name="toilet" required>
+
+						<label for="balcony"><b>Balcony</b></label>
+						<input type="text" placeholder="e.g 1,2" name="balcony" required>
+
+						<label for="email"><b>Email</b></label>
+                        <input type="email" placeholder="Enter Email" name="email" required>
+
+                        <label for="phone"><b>Phone Number</b></label>
+                        <input type="text" placeholder="Enter Phone Number" name="phone" required>
+
+                        <label for="description">Description</label>
+                        <textarea placeholder="Description of Your House" class="form-control rounded-0" name="description" rows="3"></textarea>
+
+
+						<div class="clearfix">
+							<button type="submit" class="btn btn-primary">Submit</button>
+						</div>
+					</div>
+				</form>
+			</div>
+
+
+			<div class="col-lg-8">
+
+
+            owner's houses will be showed here to edit and delete.
+
+
+
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>

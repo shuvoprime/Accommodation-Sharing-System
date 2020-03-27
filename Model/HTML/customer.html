@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Welcome</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+ 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="customer.css">
+</head>
+<body>
+
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-lg-4">
+				<form action="/action_page.php" method="post" style="border:1px solid #ccc">
+					<div class="container">
+
+
+                        <div class="alert alert-success">
+                        	<a href="#" class="close" data-dismiss="alert">&times;</a>
+                        
+                        <strong>Login successfull!</strong>
+                        </div>
+
+
+
+						<h1>Search House</h1>
+						<p>Your New Home Awaits</p>
+						<hr>
+
+						<label for="location">Select Location</label>
+						<select class="form-control" name="location">
+							<option value="Gulshan">Gulshan</option>
+							<option value="Dhanmondi">Dhanmondi</option>
+							<option value="Banani">Banani</option>
+							<option value="Baridhara">Baridhara</option>
+							<option value="Basundhara">Basundhara</option>
+							<option value="Uttara">Uttara</option>
+							<option value="Mirpur">Mirpur</option>
+							<option value="Mohakhali">Mohakhali</option>
+							<option value="Badda">Badda</option>
+							<option value="Mohammadpur">Mohammadpur</option>
+							<option value="Motijheel">Motijheel</option>
+						</select>
+
+
+						<label for="price"><b>Price Range</b></label>
+						<input type="text" placeholder="Lowest Range (in number)"  name="lprice" required>
+						<input type="text" placeholder="Highest Range (in number)" name="hprice" required>
+
+						<label for="bedroom"><b>Bedroom</b></label>
+						<input type="text" placeholder="e.g 3,4" name="bedroom" required>
+
+						<label for="toilet"><b>Toilet</b></label>
+						<input type="text" placeholder="e.g 3,4" name="toilet" required>
+
+						<label for="balcony"><b>Balcony</b></label>
+						<input type="text" placeholder="e.g 3,4" name="balcony" required>
+
+
+						<div class="clearfix">
+							<button type="submit" class="btn btn-primary">Search</button>
+						</div>
+					</div>
+				</form>
+			</div>
+
+
+			<div class="col-lg-8">
+
+				
+                   searched DATA will be showed here!
+
+
+
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
